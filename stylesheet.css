@@ -1,0 +1,68 @@
+/*
+    Created on : Apr 1, 2016, 12:41:50 PM
+    Author     : katekozelkova
+*/
+
+.alertHead {
+  margin-top: 60px;
+  margin-bottom:30px;
+  margin-left:30px;
+  padding:0;
+  max-width: 600px;
+}
+    .alertHead > h1 {
+      margin:15px;
+    }
+
+.basicBoxStyle {
+    border: solid 0.5px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left:0px;
+
+    margin-top:100px;
+    margin-bottom:20px;
+    margin-left:30px;
+    max-width: 500px;
+}
+    .rulesBox > h4, .usersBox > h4 {
+      margin-top:10px;
+      margin-bottom:10px;
+      margin-left:20px;
+      margin-right:0px;
+      padding-right:0px;
+      max-width:450px;
+    }
+
+.rulesBox {
+  
+
+}
+    .rulesList {
+        max-width: 300px;
+    }
+
+
+  .usersBox {
+
+  }
+
+  li {
+    padding-top: 10px;
+    list-style: none;
+  }
+
+/*TODO make a button in the center of the box*/
+
+  .createButton {
+    //margin-left: 50%;
+    margin-top: 40px;
+  }
+  button {
+    width: 200px;
+    height:40px;
+  }
+  .searchField {
+      margin-left: 40px;
+      width:350px;
+  }
