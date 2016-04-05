@@ -3,44 +3,45 @@
     Author     : katekozelkova
 */
 
-.alertHead {
-    margin-top: 60px;
-    margin-bottom:30px;
-    margin-left:30px;
-    padding:0;
-}
-.alertHead > h1 {
-    margin:15px;
+body {
+    background-color: #f0f2f5;
 }
 
-
-.rulesBox > h4, .usersBox > h4 {
-    margin: 10px 0 10px 40px;
-    padding-right:0px;
+.alert-head {
+    margin: 60px 0 30px 30px;
 
 }
+    .alert-head > h1 {
+        margin: 15px;
+    }
 
-.basicBoxStyle {
-    border: solid 0.5px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    padding-left:0px;
-
-    margin-top:100px;
-    margin-bottom:20px;
-    margin-left:0px;
+.box-border {
+    border: 1px solid #e9eef2;
+    padding: 10px;
+    margin: 10px;
 }
+    .rules-box > h4, .users-box > h4 {
+        margin: 10px 0 10px 40px;
+        padding: 0;
+    }
 
-.rulesBox {
-
-
-}
-.rulesList {
+.basic-box-style {
+    background-color:#ffffff;
+    margin: 40px 0 20px 0;
+    padding: 0;
 
 }
 
+.rules-box {
 
-.usersBox {
+
+}
+.rules-list {
+
+}
+
+
+.users-box {
 
 }
 
@@ -49,7 +50,7 @@ li {
     list-style: none;
 }
 
-.createButton {
+.create-button {
     margin: 70px 0 10px 40px;
 }
 button {
