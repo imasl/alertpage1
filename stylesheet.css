@@ -19,11 +19,12 @@ body {
     margin: 15px;
 }
 
-.box-border {
+.box {
     border: 1px solid #e9eef2;
     padding: 10px;
-
     border-radius: 3px;
+    box-shadow: 0 1px 0 0 #e1e8ed, 0 0 0 1px #e9eef2;
+    margin: 15px 0 0;
 }
 .rules-box > h4, .users-box > h4 {
     margin: 20px 0 30px 40px;
