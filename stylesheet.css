@@ -21,10 +21,11 @@ body {
 
 .box {
     border: 1px solid #e9eef2;
-    padding: 10px;
+    padding: 20px 20px 60px 10px;
     border-radius: 3px;
     box-shadow: 0 1px 0 0 #e1e8ed, 0 0 0 1px #e9eef2;
     margin: 15px 0 0;
+    background-color:#ffffff;
 }
 .rules-box > h4, .users-box > h4 {
     margin: 20px 0 30px 40px;
@@ -33,25 +34,22 @@ body {
 
 
 .rules-box {
-    background-color:#ffffff;
 
 }
-.rules-list {
-
-}
-
-
 .users-box {
-    background-color:#ffffff;
+
 }
 
 li {
     padding-top: 15px;
     list-style: none;
     font-size: 17px;
+
+}
+label {
+    font-weight: normal;
 }
 
-
 button {
-    margin: 20px 0 10px 40px;
+    margin: 20px 0 0 40px;
 }
