@@ -8,18 +8,17 @@ body {
     font-family: Open Sans,Helvetica Neue,sans-serif;
 }
 
-.rule-head {
-    margin: 60px 15px 50px 15px;
-    border: 1px solid #e9eef2;
-    background-color:#ffffff;
-    border-radius: 3px;
+.list-head {
+    margin: 60px 15px 10px 15px;
     padding:15px ;
+    color: #42648b;
 
 }
-.rule-head > h1 {
+.list-head > h1 {
     margin: 0 15px 0 15px;
 
 }
+
 .edit-link {
     color: #939699;
     text-align: right;
@@ -46,36 +45,21 @@ body {
     margin-left: 15px;
 }
 
-.statuses-box {
-
+a {
+    cursor: pointer;
 }
-.description-box {
-
-}
-
 li {
-    padding-top: 10px;
+    padding-top: 15px;
     list-style: none;
     font-size: 17px;
 }
-
-
-/*input[type=checkbox]:checked ~ .checkbox-li {
-    background: #bdc7f2
-}*/
-
-label {
-    font-weight: normal;
-    margin-left: 10px;
-}
-
 
 button {
     margin: 20px 0 0 40px;
 }
 
-.save-delete-button {
-    margin:50px 80px 80px 0;
+#save-button {
+    margin:50px 0 80px 0;
     width: 100px;
     height: 50px;
     font-size: 20px;
