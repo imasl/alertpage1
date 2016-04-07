@@ -41,6 +41,11 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid #eef0f3;
 }
+
+.device-name {
+    margin-left: 15px;
+}
+
 .statuses-box {
 
 }
@@ -49,10 +54,16 @@ body {
 }
 
 li {
-    padding-top: 15px;
+    padding-top: 10px;
     list-style: none;
     font-size: 17px;
 }
+
+
+/*input[type=checkbox]:checked ~ .checkbox-li {
+    background: #bdc7f2
+}*/
+
 label {
     font-weight: normal;
     margin-left: 10px;
