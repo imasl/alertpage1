@@ -24,9 +24,11 @@
       <file leaf-file-name="create_new_rule.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_new_rule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="155" column="63" selection-start-line="155" selection-start-column="63" selection-end-line="155" selection-end-column="63" />
-              <folding />
+            <state relative-caret-position="250">
+              <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+              <folding>
+                <element signature="e#4688#11308#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -267,12 +269,12 @@
       <workItem from="1459929706876" duration="3917000" />
       <workItem from="1459939036140" duration="139000" />
       <workItem from="1459939216710" duration="5491000" />
-      <workItem from="1460013823161" duration="9184000" />
+      <workItem from="1460013823161" duration="10609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25424000" />
+    <option name="totallyTimeSpent" value="26849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="980" extended-state="0" />
@@ -465,9 +467,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_new_rule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="155" column="63" selection-start-line="155" selection-start-column="63" selection-end-line="155" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="250">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+          <folding>
+            <element signature="e#4688#11308#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
