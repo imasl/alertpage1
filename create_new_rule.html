@@ -9,8 +9,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/create_new_rule.js"></script>
-    <link type="text/css" href="/css/create_new_rule.css" rel="stylesheet">
+    <link type="text/css" href="css/create_new_rule.css" rel="stylesheet">
 
     <title>Create new rule</title>
 </head>
@@ -19,7 +20,7 @@
 
 
         <div class="row">
-            <div class="alert-head col-xs-6 col-md-8">
+            <div class="rule-head col-xs-6 col-md-8">
                 <h1>
                     Rule_1 and much more text goes here
                     <a class="edit-link" href="">
@@ -34,105 +35,125 @@
             <div class="col-xs-6">
                 <div class="statuses-box box">
                     <h4 class="box-header">
-                        Check the rules below to be alerted
+                        Check the devices' statuses below you are interested in
                     </h4>
 
-                    <div class="rules-list">
-                        <ul>
-                            <li>
-                                <input id="checkbox1" type="checkbox">
-                                <label for="checkbox1">
-                                    Paper problems
-                                </label>
-                            </li>
+                    <div>
 
-                            <li>
-                                <input id="checkbox2" type="checkbox">
-                                <label for="checkbox2">
-                                    Payment system problems
-                                </label>
-                            </li>
-
-                            <li>
-                                <input id="checkbox3" type="checkbox">
-                                <label for="checkbox3">
-                                    Mark's rule
-                                </label>
-                            </li>
-
-                            <li>
-                                <input id="checkbox4" type="checkbox">
-                                <label for="checkbox4">
-                                    USB signer + card reader errors
-                                </label>
-                            </li>
-
-                            <li>
-                                <input id="checkbox5" type="checkbox">
-                                <label for="checkbox5">
-                                    Connection problems
-                                </label>
-                            </li>
-                        </ul>
-                        <div>
-                            <button class="btn btn-default">
-                                Create new rule
-                            </button>
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            80 mm printer
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <input id="checkbox1" type="checkbox">
+                                                <label for="checkbox1">
+                                                    Paper is almost finished
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input id="checkbox2" type="checkbox">
+                                                <label for="checkbox2">
+                                                    Paper crash
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input id="checkbox3" type="checkbox">
+                                                <label for="checkbox3">
+                                                    User didn't tear off the printed ticket
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            A4 printer
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <input id="checkbox6" type="checkbox">
+                                                <label for="checkbox6">
+                                                    Paper is almost finished
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input id="checkbox7" type="checkbox">
+                                                <label for="checkbox7">
+                                                    Paper crash
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input id="checkbox8" type="checkbox">
+                                                <label for="checkbox8">
+                                                    User didn't tear off the printed ticket
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Point of Sales
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <input id="checkbox11" type="checkbox">
+                                                <label for="checkbox11">
+                                                    Paper is almost finished
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input id="checkbox12" type="checkbox">
+                                                <label for="checkbox12">
+                                                    Paper crash
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input id="checkbox13" type="checkbox">
+                                                <label for="checkbox13">
+                                                    User didn't tear off the printed ticket
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
 
 
             <div class="col-xs-6">
-                <div class="users-box box">
+                <div class="description-box box">
                     <h4 class="box-header">
-                        Who will be alerted?
+                        Write down some description of the rule
                     </h4>
-                    <div class="users-list">
-                        <ul>
-                            <li>
-                                <input id="checkbox6" type="checkbox">
-                                <label for="checkbox6">
-                                    Greg Jones
-                                </label>
-                            </li>
 
-                            <li>
-                                <input id="checkbox7" type="checkbox">
-                                <label for="checkbox7">
-                                    Mike Lascot
-                                </label>
-                            </li>
-
-                            <li>
-                                <input id="checkbox8" type="checkbox">
-                                <label for="checkbox8">
-                                    Lindsey Smith
-                                </label>
-                            </li>
-
-                            <li>
-                                <input id="checkbox9" type="checkbox">
-                                <label for="checkbox9">
-                                    Terry Foster
-                                </label>
-                            </li>
-
-                            <li>
-                                <input id="checkbox10" type="checkbox">
-                                <label for="checkbox10">
-                                    Gerry Davidson
-                                </label>
-                            </li>
-                        </ul>
-
-                        <div>
-                            <button class="btn btn-default">
-                                Create new user
-                            </button>
-                        </div>
+                    <div>
+                        <textarea class="form-control" rows="6"></textarea>
                     </div>
                 </div>
             </div>
