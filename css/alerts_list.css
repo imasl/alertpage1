@@ -68,3 +68,20 @@ button {
 @media (max-width: 700px) {
 
 }
+
+.flex-cont {
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: wrap row;
+    flex-flow: wrap row;
+}
+
+.flex-cont .flex-item {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+
+.flex-item .flex-content {
+    width: 200px;
+}
